@@ -1,9 +1,9 @@
 body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
+   margin: 0;
+   padding: 0;
+   width: 100%;
 
-    font-family: Arial, Helvetica, sans-serif;
+   font-family: Arial, Helvetica, sans-serif;
   }
 
 /* Header */
@@ -13,61 +13,83 @@ body {
    height: 550px;
  }
 
+ .container {
+   max-width: 800px;
+   margin: 0 auto;
+ }
  .header {
-    padding-top: 55px;
+   padding-top: 55px;
      
  }
  .header:after {
-     content: "";
-     display: block;
-     clear: both;
+   content: "";
+   display: block;
+   clear: both;
  }
 
  .logo {
-    float: left;
-    height: 80px;
-    width: 142px;
+   float: left;
+}
+ 
+.title {
+   text-align: center;
+   margin: 100px auto 0;
+ }
+    
+.title h1 {
+   font-size: 70px;
+   font-weight: bold;
+   color: #fff;
+   line-height: 0.9;
+   margin: 0;
+        
  }
 
+ /* Menu */
  .menu {
-     margin-top: 10px;
-     float: right;
-     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-     border-top: 1px solid rgba(255, 255, 255, 0.2);
+   display: block;
+   float: right;
+   margin-top: 10px;
+ }
+
+ 
+ .menu:before,
+ .menu:after {
+   content: "";
+   display: block;
+   
+   height: 1px;
+   width: 600px;
+
+   background-color:  rgba(255, 255, 255, 0.2);
+   
  }
 
  .menu a {
-     display: inline-block;
-     text-decoration: none;
-     text-transform: uppercase;
-     color: #fff;
-     text-align: center;
-     padding: 25px 0;
+   display: inline-block;
+   text-decoration: none;
+   text-transform: uppercase;
+   color: #fff;
+   text-align: center;
+   padding: 25px 0;
      
  }
 
  .menu a:not(:last-child) {
-    margin-right: 55px;
+   margin-right: 55px;
  }
 
- .container {
-    max-width: 800px;
-    margin: 0 auto;
- }
+.menu a:hover {
+   color: #ffcb78;
+   border-bottom: 1px solid #fff;
+}
 
- .title {
-    text-align: center;
-    margin: 100px auto 0;
-    }
-    
-    .title h1 {
-    font-size: 70px;
-    font-weight: bold;
-    color: #fff;
-    line-height: 0.9;
-    margin: 0;
-        
- }
+.menu a:active {
+   color: #795f36;
+   border-bottom: 1px solid #fff;
+}
+
+
  
 
  
