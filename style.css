@@ -299,3 +299,24 @@ h2 {
   font-weight: bold;
   line-height: 50px;
 }
+
+/* Assortment */
+.assortment-table {
+  width: 100%;
+}
+.assortment-table td {
+  border-bottom: 1px solid #e5e5e5;
+}
+.assortment-table td:first-child {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.assortment-table th {
+  font-size: 11px;
+  color: #e5e5e5;
+  padding-bottom: 45px;
+}
+
+.assortment-table th:first-child {
+  text-align: left;
+}
