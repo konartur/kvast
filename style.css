@@ -23,6 +23,12 @@ h2 {
   padding: 80px 0;
 }
 
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 /* Buttons*/
 .btn {
   font-size: 16px;
@@ -81,11 +87,6 @@ h2 {
 }
 .header {
   padding-top: 55px;
-}
-.header:after {
-  content: "";
-  display: block;
-  clear: both;
 }
 
 .logo {
@@ -155,13 +156,7 @@ h2 {
   position: relative;
 }
 
-.items:after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-.item {
+.products .item {
   float: left;
 
   width: calc(50% - 50px);
@@ -207,4 +202,69 @@ h2 {
 .price {
   margin-left: auto;
   font-weight: 700;
+}
+
+/* Features */
+.features {
+  background-color: #ffcb78;
+}
+.wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.wrapper .item {
+  float: left;
+  width: 20%;
+}
+.wrapper .item:not(:last-child) {
+  margin-right: 20%;
+}
+
+.wrapper .item h3 {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #554327;
+}
+
+.wrapper .item p {
+  font-size: 16px;
+  line-height: 2;
+}
+
+.history-description {
+  float: left;
+  width: 60%;
+}
+.history-description p {
+  font-size: 16px;
+  color: #7d7d7d;
+  line-height: 1.5;
+}
+.history-description h3 {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.history-media {
+  float: right;
+  width: 25%;
+}
+
+.history-media div {
+  margin-bottom: 50px;
+  font-style: italic;
+  color: #939393;
+}
+
+.history-media a {
+  color: #834700;
+  text-decoration: none;
+  border-bottom: 1px solid #834700;
+}
+
+.history-item:not(:last-child) {
+  margin-bottom: 70px;
 }
