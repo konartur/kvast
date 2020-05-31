@@ -38,6 +38,7 @@ h2 {
   border: 2px solid #834700;
   outline: none;
   text-transform: uppercase;
+  background-color: transparent;
   cursor: pointer;
 }
 
@@ -234,6 +235,7 @@ h2 {
   line-height: 2;
 }
 
+/* History */
 .history-description {
   float: left;
   width: 60%;
@@ -267,4 +269,33 @@ h2 {
 
 .history-item:not(:last-child) {
   margin-bottom: 70px;
+}
+
+/*Review*/
+.review {
+  background-color: #ede5d8;
+}
+
+.review .wrapper {
+  margin-bottom: 50px;
+}
+.review .wrapper img {
+  float: left;
+}
+.review .wrapper p {
+  float: left;
+  width: 70%;
+  margin-left: 65px;
+}
+
+.btn-review {
+  display: inline-block;
+  color: #a6a097;
+  border-color: #a6a097;
+}
+.container .author {
+  float: right;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 50px;
 }
