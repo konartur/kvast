@@ -352,3 +352,50 @@ th:last-child {
 .order {
   background-color: #ffcb78;
 }
+.order p {
+  width: 650px;
+  color: #836f51;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.order form {
+  max-width: 630px;
+  margin-top: 80px;
+}
+.order label {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.order input,
+select {
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+  height: 50px;
+  background-color: #e5b66c;
+  border: 1px solid #e5b66c;
+  color: #b69054;
+  margin: 15px 0 25px 0;
+}
+
+.order textarea {
+  background-color: #e5b66c;
+  border: none;
+  resize: none;
+  height: 120px;
+  width: 100%;
+}
+
+.order .checkbox {
+  display: block;
+  background-color: #e5b66c;
+  color: #b69054;
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+}
+
+.order .btn-secondary {
+  margin-top: 45px;
+}
