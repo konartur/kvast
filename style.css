@@ -303,20 +303,47 @@ h2 {
 /* Assortment */
 .assortment-table {
   width: 100%;
+  border-collapse: collapse;
+}
+.assortment-table tr {
+}
+.assortment-table td:not(:first-child) {
+  color: #757575;
 }
 .assortment-table td {
   border-bottom: 1px solid #e5e5e5;
+  height: 70px;
 }
 .assortment-table td:first-child {
   font-weight: bold;
   text-transform: uppercase;
 }
+.assortment-table td,
+th {
+  text-align: left;
+}
+.assortment-table td:last-child,
+th:last-child {
+  text-align: right;
+}
 .assortment-table th {
   font-size: 11px;
   color: #e5e5e5;
   padding-bottom: 45px;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .assortment-table th:first-child {
   text-align: left;
+}
+
+.assortment-table .novelty {
+  font-size: 8px;
+  font-weight: bold;
+  color: #fff;
+  border: 1px solid black;
+  border-radius: 0.3em;
+  background-color: black;
+  padding: 2px 5px;
+  margin-left: 25px;
 }
