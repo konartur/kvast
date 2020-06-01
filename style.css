@@ -347,3 +347,8 @@ th:last-child {
   padding: 2px 5px;
   margin-left: 25px;
 }
+
+/* Order */
+.order {
+  background-color: #ffcb78;
+}

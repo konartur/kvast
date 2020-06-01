@@ -222,7 +222,41 @@
       </div>
     </section>
 
-    <section class="order"></section>
+    <section class="order">
+      <div class="container">
+        <h2>Заказать</h2>
+        <p>
+          Не ждите пока нас отрекламируют, как Вясткий квас, и мы поднимем цены!
+          Закажите настоящий крафтовый квас сейчасю При заказе от 10 баррелей -
+          скидка 10%.
+        </p>
+        <form action="#">
+          <label for="client-name">Представьтесь:</label>
+          <input type="text" id="client-name" name="client-name" />
+
+          <label for="phone">Номер телефона</label>
+          <input type="number" id="phone" />
+
+          <label for="second-phone">Доп.Номер</label>
+          <input type="number" />
+
+          <label for="email">Email</label>
+          <input type="text" id="email" />
+
+          <label for="order-quantity">Объём заказа:</label>
+          <select name="order quantity" id="order-quantity">
+            <option value="5-10">От 5 до 10 баррелей в неделю</option>
+          </select>
+
+          <label for="comment">Доп. Комментарий:</label>
+          <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+
+          <input type="checkbox" checked /> Я согласен получать квасную рассылку
+          <br />
+          <button>Отправить заказ</button>
+        </form>
+      </div>
+    </section>
 
     <footer class="footer"></footer>
   </body>
