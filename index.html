@@ -8,7 +8,7 @@
   </head>
 
   <body>
-    <section class="intro">
+    <!-- <section class="intro">
       <div class="container">
         <header class="header clearfix">
           <div class="logo">
@@ -220,7 +220,7 @@
           </tr>
         </table>
       </div>
-    </section>
+    </section> -->
 
     <section class="order section">
       <div class="container">
@@ -233,13 +233,16 @@
         <form action="#">
           <label for="client-name">Представьтесь:</label>
           <input type="text" id="client-name" name="client-name" />
-
-          <label for="phone" class="phone-label">Номер телефона</label>
-          <input type="number" id="phone" class="phone" />
-
-          <label for="second-phone" class="second-phone">Доп.Номер</label>
-          <input type="number" id="second-phone" class="second-phone" />
-
+          <div class="phone-items clearfix">
+            <div class="phone main-phone">
+              <label for="phone" class="phone-label">Номер телефона</label>
+              <input type="number" id="phone" class="phone" />
+            </div>
+            <div class="phone additional-phone">
+              <label for="second-phone" class="second-phone">Доп.Номер</label>
+              <input type="number" id="second-phone" class="second-phone" />
+            </div>
+          </div>
           <label for="email">Email:</label>
           <input type="text" id="email" />
 
@@ -251,8 +254,16 @@
           <label for="comment">Доп. Комментарий:</label>
           <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
 
-          <input type="checkbox" id="checkbox" class="checkbox" checked />
-          <label for="checkbox">Я согласен получать квасную рассылку</label>
+          <input
+            type="checkbox"
+            name="vector"
+            id="vector"
+            class="custom-checkbox"
+          />
+          <label for="vector" class="checkbox-label"
+            >Я согласен получать квасную рассылку</label
+          >
+
           <br />
           <button class="btn btn-secondary">Отправить заказ</button>
         </form>
