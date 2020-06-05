@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
+  min-width: 320px;
 
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -509,4 +510,65 @@ select {
 .feedback p {
   width: 20%;
   white-space: nowrap;
+}
+
+/* Media */
+
+@media screen and (max-width: 768px) {
+  .section {
+    padding: 40px 0;
+  }
+  .container {
+    padding: 0 10px;
+  }
+  h3 {
+    font-size: 30px;
+    margin-bottom: 45px;
+  }
+  .header {
+    text-align: center;
+  }
+  .logo {
+    width: 100%;
+    float: none;
+  }
+  .logo object {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .menu {
+    float: none;
+    display: inline-block;
+  }
+  .menu a:not(:last-child) {
+    margin-right: 15px;
+  }
+  .title {
+    margin-top: 50px;
+  }
+  .title h2 {
+    font-size: 60px;
+  }
+  .items {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .items .item {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header {
+    padding-top: 5px;
+  }
+  .menu a {
+    display: block;
+    padding: 5px;
+  }
+  .title h2 {
+    font-size: 40px;
+  }
 }
