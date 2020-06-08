@@ -291,7 +291,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .review .wrapper {
-  margin-bottom: 50px;
+  margin-bottom: 0;
 }
 .review .wrapper img {
   float: left;
@@ -300,18 +300,22 @@ input[type="number"]::-webkit-outer-spin-button {
   float: left;
   width: 70%;
   margin-left: 65px;
+
+  width: calc(100% - 41px - 65px);
 }
 
 .btn-review {
   display: inline-block;
   color: #a6a097;
   border-color: #a6a097;
+  margin-top: 20px;
 }
 .container .author {
   float: right;
   text-transform: uppercase;
   font-weight: bold;
   line-height: 50px;
+  margin-top: 20px;
 }
 
 /* Assortment */
@@ -706,5 +710,14 @@ select {
   }
   .feedback {
     margin-top: 0;
+  }
+
+  .container .author {
+    float: none;
+    line-height: normal;
+  }
+  .review .wrapper p {
+    margin-left: 20px;
+    width: calc(100% - 41px - 20px);
   }
 }
