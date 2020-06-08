@@ -462,7 +462,7 @@ select {
 }
 
 .custom-checkbox:checked + label::before {
-  background-image: url("images/pngVector.png");
+  background-image: url("Images/pngVector.png");
 }
 .checkbox-label {
   margin-top: 30px;
