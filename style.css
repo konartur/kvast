@@ -598,6 +598,13 @@ select {
     width: 45%;
   }
   /* Table 768px */
+  .assortment-table td {
+    height: auto;
+  }
+  .assortment-table .novelty:before {
+    content: "\f005";
+    font-family: FontAwesome;
+  }
 
   .assortment-table,
   thead,
@@ -629,6 +636,7 @@ select {
     border-bottom: 1px solid #eee;
     position: relative;
     padding-left: 50%;
+    vertical-align: middle;
   }
 
   td:before {
@@ -661,6 +669,9 @@ You could also use a data-* attribute and content for this. That way "bloats" th
   }
   td:nth-of-type(5):before {
     content: "Стоимость";
+  }
+  .assortment-table td:last-child {
+    text-align: left;
   }
 
   /*end table */
