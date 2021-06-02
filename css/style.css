@@ -88,7 +88,7 @@ input[type="number"]::-webkit-outer-spin-button {
 
 /* Header */
 .intro {
-  background: url("Images/wheat-back.jpg");
+  background: url("../Images/wheat-back.jpg");
   background-size: cover;
   height: 550px;
 }
@@ -527,6 +527,41 @@ select {
   white-space: nowrap;
 }
 
+/* Slider */
+.slider {
+  overflow: hidden;
+}
+
+#carousel-main .slider__img {
+  width: 50px;
+  height: auto;
+}
+
+#carousel-main .owl-nav .owl-prev {
+  position: absolute;
+  left: 0;
+  bottom: 50%;
+}
+#carousel-main .owl-nav .owl-prev:hover {
+  background: none;
+  opacity: 0.6;
+}
+#carousel-main .owl-nav .owl-next {
+  position: absolute;
+  right: 0;
+  bottom: 50%;
+}
+#carousel-main .owl-nav .owl-next:hover {
+  background: none;
+  opacity: 0.6;
+}
+
+#carousel-main .owl-nav .owl-next i,
+#carousel-main .owl-nav .owl-prev i {
+  font-size: 40px;
+  color: #fff;
+}
+
 /* Media */
 @media screen and (max-width: 992px) {
   .menu a:not(:last-child) {
@@ -697,6 +732,10 @@ You could also use a data-* attribute and content for this. That way "bloats" th
   }
   .footer .clearfix:first-child {
     text-align: center;
+  }
+  /* slider */
+  #carousel-main .owl-nav {
+    display: none;
   }
 }
 
