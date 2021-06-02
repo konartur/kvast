@@ -462,7 +462,7 @@ select {
 }
 
 .custom-checkbox:checked + label::before {
-  background-image: url("Images/pngVector.png");
+  background-image: url("../Images/pngVector.png");
 }
 .checkbox-label {
   margin-top: 30px;
@@ -501,8 +501,7 @@ select {
 
 .footer-copyright .social i {
   display: block;
-  height: 16px;
-  width: 16px;
+  font-size: 35px;
 }
 
 .footer-copyright p {
