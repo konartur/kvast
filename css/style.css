@@ -530,6 +530,7 @@ select {
 /* Slider */
 .slider {
   overflow: hidden;
+  background-color: #ede5d8;
 }
 
 #carousel-main .slider__img {
