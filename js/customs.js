@@ -7,7 +7,6 @@ jQuery(document).ready(function () {
 
   slid.owlCarousel({
     items: 1,
-    lazyLoads: true,
     autoplay: true,
     autoplayTimeout: 6000,
     autoplayHoverPause: false,
