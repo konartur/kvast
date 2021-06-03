@@ -755,7 +755,7 @@ You could also use a data-* attribute and content for this. That way "bloats" th
     font-size: 25px;
   }
   .products .item img {
-    width: 100%;
+    width: 60%;
   }
   .info {
     width: 55%;
