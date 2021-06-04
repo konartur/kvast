@@ -661,13 +661,11 @@ select {
     border: none;
     border-bottom: 1px solid #eee;
     position: relative;
-    padding-left: 50%;
     vertical-align: middle;
   }
 
   td:before {
     /* Now like a table header */
-    position: absolute;
     /* Top/left values mimic padding */
     top: 0;
     left: 0;
